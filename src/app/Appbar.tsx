@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import { Button, Typography } from "@mui/material";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+// import { useState } from "react";
 // import { userounter.push } from "react-router-dom";
 // import { userState } from "../../stores/atoms/user";
 // import { useSetRecoilState, useRecoilValue } from "recoil";
@@ -13,8 +13,8 @@ const Appbar = () => {
   // const setUser = useSetRecoilState(userState);
   // const userEmail = useRecoilValue(userOnlyState);
   // const isLoading = useRecoilValue(userLoadingState);
-  const userEmail = useState(null)
-  const isLoading = useState(false);
+  // const userEmail = useState(null)
+  // const isLoading = useState(false);
   const rounter = useRouter();
   const onLogOut = async () => {
     // await logOutAction();
